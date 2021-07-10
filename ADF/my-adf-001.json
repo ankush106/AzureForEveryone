@@ -1,0 +1,25 @@
+{
+    "name": "my-adf-001",
+    "id": "/subscriptions/6fc7f8c6-aff2-429f-9e8a-2995240dfb49/resourceGroups/ak-rg-dp200-test-synapse/providers/Microsoft.DataFactory/factories/my-adf-001",
+    "type": "Microsoft.DataFactory/factories",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "createTime": "2021-07-10T07:32:04.63923Z",
+        "version": "2018-06-01",
+        "factoryStatistics": {
+            "totalResourceCount": 0,
+            "maxAllowedResourceCount": 0,
+            "factorySizeInGbUnits": 0,
+            "maxAllowedFactorySizeInGbUnits": 0
+        },
+        "publicNetworkAccess": "Enabled"
+    },
+    "eTag": "\"0b00e795-0000-0100-0000-60e94cf50000\"",
+    "location": "eastus",
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "3317232e-27b2-4071-a6c5-fc31afc3ef56",
+        "tenantId": "d52c9ea1-7c21-47b1-82a3-33a74b1f74b8"
+    },
+    "tags": {}
+}
