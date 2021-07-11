@@ -1,0 +1,82 @@
+{
+    "properties": {
+        "managedResourceGroupId": "/subscriptions/6fc7f8c6-aff2-429f-9e8a-2995240dfb49/resourceGroups/databricks-rg-workspacedatabricks001-z3piw6mx24nno",
+        "parameters": {
+            "enableFedRampCertification": {
+                "type": "Bool",
+                "value": false
+            },
+            "enableNoPublicIp": {
+                "type": "Bool",
+                "value": false
+            },
+            "natGatewayName": {
+                "type": "String",
+                "value": "nat-gateway"
+            },
+            "prepareEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "publicIpName": {
+                "type": "String",
+                "value": "nat-gw-public-ip"
+            },
+            "relayNamespaceName": {
+                "type": "String",
+                "value": "dbrelayqmekt4htesk7e"
+            },
+            "requireInfrastructureEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "resourceTags": {
+                "type": "Object",
+                "value": {
+                    "application": "databricks",
+                    "databricks-environment": "true"
+                }
+            },
+            "storageAccountName": {
+                "type": "String",
+                "value": "dbstorageqmekt4htesk7e"
+            },
+            "storageAccountSkuName": {
+                "type": "String",
+                "value": "Standard_GRS"
+            },
+            "vnetAddressPrefix": {
+                "type": "String",
+                "value": "10.139"
+            }
+        },
+        "provisioningState": "Succeeded",
+        "authorizations": [
+            {
+                "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+            }
+        ],
+        "createdBy": {
+            "oid": "ce988e1a-ae10-469b-916e-f0a85e884e40",
+            "puid": "100320005611931E",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "updatedBy": {
+            "oid": "ce988e1a-ae10-469b-916e-f0a85e884e40",
+            "puid": "100320005611931E",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "workspaceId": "5388713298198769",
+        "workspaceUrl": "adb-5388713298198769.9.azuredatabricks.net",
+        "createdDateTime": "2021-07-11T05:47:22.9464879Z"
+    },
+    "id": "/subscriptions/6fc7f8c6-aff2-429f-9e8a-2995240dfb49/resourceGroups/ak-rg-dp200-test-synapse/providers/Microsoft.Databricks/workspaces/workspacedatabricks001",
+    "name": "workspacedatabricks001",
+    "type": "Microsoft.Databricks/workspaces",
+    "sku": {
+        "name": "standard"
+    },
+    "location": "eastus",
+    "tags": {}
+}
